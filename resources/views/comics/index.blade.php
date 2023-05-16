@@ -4,6 +4,9 @@
 @section('content')
 <div id="main-section-container" class="my-container">
 
+    <a id="new-comic" href="{{route('comics.create')}}">Add a new Comic <span>&rightarrow;</span></a>
+
+
     {{-- comics --}}
     <div id="card-container" class="container-centered">
         @foreach ($comics as $singleComic)
