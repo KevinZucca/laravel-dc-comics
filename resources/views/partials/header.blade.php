@@ -10,7 +10,7 @@
     {{-- navbar  --}}
     <nav class="my-container">
       <div id="nav-content" class="container-centered">
-        <a href="/">
+        <a href="{{route('comics.index')}}">
           <img src="{{Vite::asset("/resources/img/images/dc-logo.png")}}" alt="big_logo">
         </a>
   

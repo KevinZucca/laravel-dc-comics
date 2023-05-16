@@ -15,8 +15,7 @@ class ComicController extends Controller
     public function index()
     {
 
-        $comics = config('comics');
-
+        $comics = Comic::all();
 
         $headerLinks = [
             "/characters" => "characters",
@@ -45,7 +44,6 @@ class ComicController extends Controller
             ["DC", "Terms Of Use", "Privacy Policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"],
             ["SITES", "DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
         ];
-
 
         return view('comics/index', compact('comics', 'shopLinks', 'headerLinks', 'footerLinks'));
     }
@@ -79,7 +77,7 @@ class ComicController extends Controller
      */
     public function show(Comic $comic)
     {
-        return view('comics/show', compact('comic'));
+        //
     }
 
     /**

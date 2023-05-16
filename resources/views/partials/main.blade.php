@@ -4,8 +4,8 @@
     <div id="card-container" class="container-centered">
         @foreach ($comics as $singleComic)
             <div class="my-card">
-                <img class="comic-img" src="{{$singleComic['thumb']}}" alt="cover-img">
-                <a href="#">{{$singleComic['title']}}</a>
+                <img class="comic-img" src="{{$singleComic->thumb}}" alt="cover-img">
+                <a href="#">{{$singleComic->title}}</a>
             </div>
         @endforeach
 
