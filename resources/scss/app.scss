@@ -331,3 +331,22 @@ header {
 
     }
 }
+
+
+
+
+// single card
+
+.single-container {
+    display: flex;
+
+    padding: 30px;
+    height: 600px;
+
+    .single-description-container {
+        display: flex;
+        flex-flow: column;
+
+        margin-left: 50px;
+    }
+}

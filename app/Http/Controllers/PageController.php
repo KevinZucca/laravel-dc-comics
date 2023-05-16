@@ -9,6 +9,6 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('comics/index');
+        return view('comics.index');
     }
 }

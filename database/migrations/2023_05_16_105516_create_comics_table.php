@@ -14,6 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('comics', function (Blueprint $table) {
+
+            $table->id();
             $table->string("title");
             $table->text("description");
             $table->text("thumb");
