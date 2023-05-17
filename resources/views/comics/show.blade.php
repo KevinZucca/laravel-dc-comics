@@ -13,7 +13,7 @@
         <p>Artists: {{$comic->artists}}</p>
         <p>Writers: {{$comic->writers}}</p>
 
-        <a href="{{route('comics.edit', $comic->id)}}">edit comic</a>
+        <a id="edit-link" href="{{route('comics.edit', $comic->id)}}">Edit comic <span>&rightarrow;</span></a>
 
     </div>
 

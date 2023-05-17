@@ -54,7 +54,7 @@
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="description">{{$comic->description}}</textarea>
         </div>
 
-      <button class="btn btn-primary" type="submit">save</button>
+      <button class="btn btn-primary my-button" type="submit">save</button>
 
     
       </form>
@@ -63,7 +63,7 @@
       <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
         @csrf
         @method('DELETE')
-        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-danger my-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
           delete
         </button>
 
