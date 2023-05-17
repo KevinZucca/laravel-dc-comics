@@ -30,10 +30,18 @@
     {{-- shop section --}}
     <div id="shop-container" class="my-container">
         <div id="shop-links-container" class="container-centered">
-            @foreach ($shopLinks as $key => $value)
-                <img src="{{Vite::asset($value)}}" alt="shop-img">
-                <a href="#">{{$key}}</a>
-            @endforeach
+            <div id="shop-links-container" class="container-centered">
+                <img src="http://[::1]:5173/resources/img/images/buy-comics-digital-comics.png" alt="shop-img">
+                    <a href="#">digital comics</a>
+                <img src="http://[::1]:5173/resources/img/images/buy-comics-merchandise.png" alt="shop-img">
+                    <a href="#">dc merchandise</a>
+                <img src="http://[::1]:5173/resources/img/images/buy-comics-subscriptions.png" alt="shop-img">
+                    <a href="#">subscription</a>
+                <img src="http://[::1]:5173/resources/img/images/buy-comics-shop-locator.png" alt="shop-img">
+                    <a href="#">comic shop locator</a>
+                <img src="http://[::1]:5173/resources/img/images/buy-dc-power-visa.svg" alt="shop-img">
+                    <a href="#">dc power visa</a>
+            </div>
         </div>
     </div>
 

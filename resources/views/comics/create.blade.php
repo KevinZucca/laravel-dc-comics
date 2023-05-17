@@ -4,7 +4,7 @@
 @section('content')
 <div id="form-container">
     <h1>Insert a new Comic</h1>
-    <form action="{{route('comics.index')}}" method="POST">
+    <form action="{{route('comics.store')}}" method="POST">
         @csrf
         <div class="form-group">
           <label for="exampleFormControlInput1">Title</label>

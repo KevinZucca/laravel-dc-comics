@@ -1,12 +1,42 @@
 <div id="footer-container" class="my-container">
     <div id="footer-links-container" class="container-centered">
-        @foreach ($footerLinks as $list)
         <ul>
-            @foreach ($list as $singleLink)
-                <li>{{$singleLink}}</li>  
-            @endforeach
+            <li>DC COMICS</li>  
+            <li>Characters</li>  
+            <li>Comics</li>  
+            <li>Movies</li>  
+            <li>TV</li>  
+            <li>Games</li>  
+            <li>Videos</li>  
+            <li>News</li>  
         </ul>
-        @endforeach
+        <ul>
+            <li>SHOP</li>  
+            <li>Shop DC</li>  
+            <li>Shop DC Colletctibles</li>  
+        </ul>
+        <ul>
+            <li>DC</li>  
+            <li>Terms Of Use</li>  
+            <li>Privacy Policy (New)</li>  
+            <li>Ad Choices</li>  
+            <li>Advertising</li>  
+            <li>Jobs</li>  
+            <li>Subscriptions</li>  
+            <li>Talent Workshops</li>  
+            <li>CPSC Certificates</li>  
+            <li>Ratings</li>  
+            <li>Shop Help</li>  
+            <li>Contact Us</li>  
+        </ul>
+        <ul>
+            <li>SITES</li>  
+            <li>DC</li>  
+            <li>MAD Magazine</li>  
+            <li>DC Kids</li>  
+            <li>DC Universe</li>  
+            <li>DC Power Visa</li>  
+        </ul>
 
         <img id="big-logo" src="{{Vite::asset("/resources/img/images/dc-logo-bg.png")}}" alt="big-logo">
 
