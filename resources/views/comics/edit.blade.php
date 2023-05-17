@@ -56,7 +56,11 @@
 
       <button class="btn btn-primary" type="submit">save</button>
 
-      <button class="btn btn-danger" type="submit">delete</button>
+      <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
+        @csrf
+        @method('DELETE')
+        <button class="btn btn-danger" type="submit">delete</button>
+      </form>
 
 
       </form>
